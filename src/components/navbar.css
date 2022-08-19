@@ -2,14 +2,16 @@
 
 .nav-bar {
   background-color: #f55a5a;
-  /* width: 550px; */
   height: 55px;
-}
-
-p {
   padding-top: 20px;
   color: white;
   font-family: "Inter", sans-serif;
   font-size: 14.46px;
   font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.nav-header {
+  color: white;
+  text-align: center;
 }

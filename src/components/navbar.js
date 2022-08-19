@@ -4,7 +4,7 @@ import "./navbar.css";
 function Navbar() {
   return (
     <div className="nav-bar">
-      <p>my travel journal.</p>
+      <p className="nav-header">my travel journal.</p>
     </div>
   );
 }

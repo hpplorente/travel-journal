@@ -2,12 +2,70 @@ p {
   color: black;
 }
 
-.container {
+.card {
   text-align: left;
   display: flex;
   margin: auto;
+  margin-top: 20px;
+  width: 471px;
+  height: 168px;
+  font-family: "Inter", sans-serif;
 }
 
-.img {
-  width: 100%;
+img {
+  width: 125px;
+  height: 168px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.info {
+  padding-left: 20px;
+}
+
+.location {
+  font-family: "Inter", sans-serif;
+  font-size: 10.24px;
+  font-weight: 400;
+  color: #2b283a;
+  letter-spacing: 0.17em;
+}
+
+.map-loc {
+  font-size: 10.24px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #918e9b;
+  padding-left: 12px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #2b283a;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.date {
+  font-size: 10.24px;
+  font-weight: 700;
+  color: #2b283a;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.description {
+  font-size: 10.24px;
+  font-weight: 400;
+  color: #2b283a;
+  padding-top: 9px;
+}
+
+hr {
+  margin: auto;
+  margin-top: 20px;
+  width: 478px;
+  height: 0px;
+  border: 1px solid #f5f5f5;
 }
